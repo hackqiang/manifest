@@ -3,15 +3,11 @@
   <!-- remote repo and gerrit review -->
   <include name="remote.xml" />
   <!-- aosp default repository-->
-  <include name="include/aosp_default_repository.xml" />
-  
-  <remove-project name="platform/frameworks/ml" />
-  <remove-project name="platform/system/sepolicy" />
-  
-  <!-- aosp rk repository-->
-  <include name="include/aosp_rk_repository.xml" />
+  <include name="include_android9.0/aosp_default_repository.xml" />
+  <!-- rk checkout new default repository-->
+  <include name="include_android9.0/rk_checkout_from_aosp.xml" />
   <!-- rk modules repository-->
-  <include name="include/rk_modules_repository.xml" />
-  <!-- rk3399 special repository-->
-  <include name="include/rk3399pro_repository.xml" />
+  <include name="include_android9.0/rk_modules_repository.xml" />
+  <!-- rk3399pro special repository-->
+  <include name="include_android9.0/rk3399pro_repository.xml" />
 </manifest>
