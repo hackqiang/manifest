@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="RKDocs/rk3288" name="RKDocs-rk3288" remote="origin" revision="master"/>
+  <project path="RKTools" name="RKTools" remote="origin" revision="master"/>
+  <project path="device/rockchip/rk3288" name="device-rockchip-rk3288" remote="origin" revision="develop">
+      <copyfile src="buildspec-rk3288.mk" dest="buildspec.mk"/>
+      <copyfile src="build.sh" dest="build.sh"/>
+  </project>
+  <project path="u-boot" name="u-boot" remote="origin" revision="master"/>
+  <project path="hardware/rockchip/libgralloc" name="hardware-rockchip-libgralloc" remote="origin" revision="master" />
+  <project path="external/i2c-tools" name="i2c-tools" remote="origin" revision="master"/>
+</manifest>
